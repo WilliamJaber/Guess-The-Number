@@ -1,4 +1,4 @@
-# Guess-The-Number
+# Guess The Number
 
 ## Background Info
 The Number Guessing Game
@@ -8,6 +8,7 @@ The Number Guessing Game
 - Atom
 
 ## Requiremements 
+- Python 3.0 +
 
 ## Contribution
 This is an open source project. Feedback, Questions and Pull requests are welcome. 
@@ -16,4 +17,7 @@ Please make sure to update tests as appropriate.
 
 ## License
 This project is licensed under the MIT License
-<!-- Comment code-->
+
+
+
+<!-- This is how you comment code-->
