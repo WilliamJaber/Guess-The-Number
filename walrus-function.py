@@ -25,6 +25,6 @@ def guess_number() -> None:
     print('Game over!')
 
 
-# # If the program is run (instead of imported), run the game
+# If the program is run (instead of imported), run the game
 if __name__ == "__main__":
     print(guess_number())
