@@ -1,10 +1,12 @@
 from random import randint
 
 
-def guess_number():
+def guess_number() -> None:
+    """
+    Player has 6 'turns' to guess a secret_number number between 1-20 correctly.
+    """
     turns = 0
     secret_number = randint(1, 20)
-    # Introducing the walrus function
     while user_input := int(input('Enter a number: ')):
         turns += 1
         if turns == 6:
@@ -22,4 +24,6 @@ def guess_number():
     print('Game over!')
 
 
-print(guess_number())
+# # If the program is run (instead of imported), run the game
+if __name__ == "__main__":
+    print(guess_number())
