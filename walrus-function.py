@@ -18,9 +18,9 @@ def guess_number() -> None:
             break
 
         elif user_input > secret_number:
-            print('Too high!', secret_number)
+            print('Too high!')
         elif user_input < secret_number:
-            print('Too low!', secret_number)
+            print('Too low!')
 
     print('Game over!')
 
