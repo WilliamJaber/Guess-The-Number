@@ -1,6 +1,3 @@
-# Guess-The-Number
-Game project
-
 ## Background Info
 The Number Guessing Game
 
@@ -18,5 +15,3 @@ Please make sure to update tests as appropriate.
 
 ## License
 This project is licensed under the MIT License
-
-
