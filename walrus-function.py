@@ -11,10 +11,12 @@ def guess_number() -> None:
         turns += 1
         if user_input == secret_number:
             print('You guessed correctly!')
-            user_input = False
+            break
+
         if turns == 6:
             print(f'You loose!, Secret number was {secret_number}')
-            user_input = False
+            break
+
         elif user_input > secret_number:
             print('Too high!', secret_number)
         elif user_input < secret_number:
