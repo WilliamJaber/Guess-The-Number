@@ -1,5 +1,3 @@
-from random import randint
-
 
 def guess_the_number():
     """This is called a docstring. Every function should have one.
@@ -16,7 +14,7 @@ def guess_the_number():
         tries = tries + 1
         # When asking for user input, you need to store the user's guess
         # in a memory location.Lets call it 'user_guess':
-        # And because we are dealing with integers, we will wrap user input in the int() 
+        # And because we are dealing with integers, we will wrap user input in the int()
         user_guess = int(input('HEY! Can you guess the number?'))
         # If the guess is just right then print "you win!" and break
         if user_guess == num_to_guess:
@@ -24,8 +22,8 @@ def guess_the_number():
             print(num_to_guess)
             break
 
-        # Before you have n < num_to_guess. 
-        # Now, it's user_guess!        
+        # Before you have n < num_to_guess.
+        # Now, it's user_guess!
         if user_guess < num_to_guess:
             print('too low!\n')
             print(num_to_guess)
