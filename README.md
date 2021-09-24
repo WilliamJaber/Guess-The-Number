@@ -3,8 +3,6 @@ Game project
 
 ## Background Info
 The Number Guessing Game
-@@ -8,6 +8,7 @@ The Number Guessing Game
-- Atom
 
 ## Technology Framework
 - Python 3.0 + 
