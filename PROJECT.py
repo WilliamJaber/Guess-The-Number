@@ -19,11 +19,11 @@ def guess_the_number(n):
             print(num_to_guess)
             break
 
-# If the guess is too high then print "too high"
+# If the guess is too high then print "too low"
         if n < num_to_guess:
                 print('too low!\n')
 
-# If the guess is too low then print  "too low"
+# If the guess is too low then print  "too high"
         if n > num_to_guess:
             print('too high!\n')
 
