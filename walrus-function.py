@@ -9,18 +9,17 @@ def guess_number() -> None:
     secret_number = randint(1, 20)
     while user_input := int(input('Enter a number: ')):
         turns += 1
-        if turns == 6:
-            print(f'You loose!, Secret number was {secret_number}')
-            break
-
         if user_input == secret_number:
             print('You guessed correctly!')
-            break
-
+            user_input = False
+        if turns == 6:
+            print(f'You loose!, Secret number was {secret_number}')
+            user_input = False
         elif user_input > secret_number:
-            print('Too high!')
+            print('Too high!', secret_number)
         elif user_input < secret_number:
-            print('Too low!')
+            print('Too low!', secret_number)
+
     print('Game over!')
 
 
